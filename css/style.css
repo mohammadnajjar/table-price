@@ -1,0 +1,122 @@
+*,
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.mr-b {
+  margin-bottom: 2%;
+}
+.mr-t {
+  margin-top: 1%;
+}
+.mr-l {
+  margin-left: 1%;
+}
+.me-l2 {
+  margin-left: 2%;
+}
+.mr-l4 {
+  margin-left: 4%;
+}
+.mr-r {
+  margin-right: 1%;
+}
+.pd-t1 {
+  padding-top: 1%;
+}
+.pd-1 {
+  padding: 1%;
+}
+.pd-b1 {
+  padding-bottom: 1%;
+}
+.pd-t3 {
+  padding-top: 3%;
+}
+.pd-b3 {
+  padding-bottom: 3%;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.plans {
+  background: #eee;
+  color: #666666;
+  width: 1200px;
+  margin: auto;
+  border-spacing: 1px;
+  text-align: center;
+  font-weight: bold;
+}
+.plans th {
+  background: #fc5103;
+  color: #fff;
+  font-size: 20px;
+}
+.plans tr:nth-child(even) {
+  background: #fafafa;
+}
+.plans tr:nth-child(odd) {
+  background: #f7f7f7;
+}
+.plans td,
+.plans th {
+  padding: 0px;
+  width: 20%;
+}
+.plans tr td:first-child {
+  color: #b4abad;
+}
+.plans tr td:first-child,
+.plans tr th:first-child {
+    width: 15%;
+  padding: 25px 38px;
+}
+.last {
+  height: 80px;
+}
+.last .btn {
+  width: 85px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 8px;
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+}
+.price {
+  color: #fc5103;
+  font-size: 70px;
+  vertical-align: middle;
+}
+.doller {
+  font-size: 23px;
+  color: #666666;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 6px;
+  vertical-align: top;
+}
+.year {
+  margin-left: -30px;
+  font-size: 14px;
+  color: #b4abad;
+  display: inline-block;
+  margin-bottom: 12px;
+  vertical-align: bottom;
+}
+.bbg {
+  background: #333333;
+}
+.orgbg {
+  background: #fc5103;
+}
+.btn:hover {
+  background: #fc5103;
+}
